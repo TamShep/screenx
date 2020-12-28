@@ -950,7 +950,7 @@
                 "illuminate/support": "^7.0",
                 "php": "^7.2.5",
                 "symfony/http-foundation": "^5.0",
-                "symfony/http-kernel": "^5.0",
+                "symfony/http-kernel": "5.1.5",
                 "symfony/mime": "^5.0"
             },
             "suggest": {
@@ -1531,7 +1531,7 @@
                 "symfony/console": "^5.0",
                 "symfony/error-handler": "^5.0",
                 "symfony/http-foundation": "^5.0",
-                "symfony/http-kernel": "^5.0",
+                "symfony/http-kernel": "5.1.5",
                 "symfony/mime": "^5.0",
                 "symfony/var-dumper": "^5.0",
                 "vlucas/phpdotenv": "^4.0"
@@ -2320,7 +2320,7 @@
                 "symfony/var-dumper": "^4.4|^5.0"
             },
             "require-dev": {
-                "symfony/http-kernel": "^4.4|^5.0",
+                "symfony/http-kernel": "5.1.5",
                 "symfony/serializer": "^4.4|^5.0"
             },
             "type": "library",
@@ -2391,7 +2391,7 @@
             },
             "suggest": {
                 "symfony/dependency-injection": "",
-                "symfony/http-kernel": ""
+                "symfony/http-kernel": "5.1.5"
             },
             "type": "library",
             "extra": {
@@ -2589,7 +2589,7 @@
         },
         {
             "name": "symfony/http-kernel",
-            "version": "v5.0.7",
+            "version": "v5.1.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/http-kernel.git",
@@ -3166,7 +3166,7 @@
             "conflict": {
                 "symfony/config": "<4.4",
                 "symfony/dependency-injection": "<5.0",
-                "symfony/http-kernel": "<5.0",
+                "symfony/http-kernel": "5.1.5",
                 "symfony/twig-bundle": "<5.0",
                 "symfony/yaml": "<4.4"
             },
@@ -3179,7 +3179,7 @@
                 "symfony/console": "^4.4|^5.0",
                 "symfony/dependency-injection": "^5.0",
                 "symfony/finder": "^4.4|^5.0",
-                "symfony/http-kernel": "^5.0",
+                "symfony/http-kernel": "5.1.5",
                 "symfony/intl": "^4.4|^5.0",
                 "symfony/service-contracts": "^1.1.2|^2",
                 "symfony/yaml": "^4.4|^5.0"
